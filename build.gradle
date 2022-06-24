@@ -8,3 +8,16 @@ plugins {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+
+buildscript {
+    repositories {
+        google()
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+    }
+}
